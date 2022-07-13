@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="dodanie nowej klasy">
+    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="add method add() to add elements into map">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex69/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657731558683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add method add() to add elements into map">
+      <created>1657735577218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657735577218</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add method add() to add elements into map">
+      <created>1657735581926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657735581926</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +125,7 @@
     <MESSAGE value="dodanie maina &#10;uzupelnienie simpleDi" />
     <MESSAGE value="dodanie w mainie ksiazki" />
     <MESSAGE value="dodanie nowej klasy" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie nowej klasy" />
+    <MESSAGE value="add method add() to add elements into map" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method add() to add elements into map" />
   </component>
 </project>

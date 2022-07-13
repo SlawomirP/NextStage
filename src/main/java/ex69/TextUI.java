@@ -18,6 +18,7 @@ public class TextUI {
     // to w tablice
 
     public void start() {
+        mainloop:
         while (true) {
             System.out.println("Command:");
             String command = scanner.nextLine();
@@ -28,10 +29,14 @@ public class TextUI {
             if (command.equals("add")) {
                 System.out.println("Word");
                 String word = scanner.nextLine();
+                System.out.println("Translation");
                 String translation = scanner.nextLine();
                 simpleDictionary.add(word, translation);
+                continue;
             }
-            System.out.println("Unknown command");
+            if ((!command.equals("end")) || (!command.equals("add"))) {
+                System.out.println("Unknown command");
+            }
         }
     }
 }
