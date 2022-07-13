@@ -37,6 +37,9 @@ public class TextUI {
             if (command.equals("search")) { // wyszukiwanie
                 System.out.println("To be translated:");
                 String searchingWord = scanner.nextLine();
+                if (!simpleDictionary.contains(searchingWord)) {
+                    System.out.println("Word " + searchingWord + " was not found");
+                }
                 System.out.println(simpleDictionary.translate(searchingWord));
                 continue;
             }

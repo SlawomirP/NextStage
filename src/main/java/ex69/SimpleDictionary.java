@@ -20,4 +20,11 @@ public class SimpleDictionary {
     public void add(String word, String translation) {
         this.translation.put(word, translation);
     }
+    // moja metoda sprawdzajaca czy w mapie jest okreslony klucz
+    public boolean contains(String word) {
+        if (translation.containsKey(word)) {
+            return true;
+        }
+        return false;
+    }
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="add comments">
+    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="add method for searching word in map">
       <change beforePath="$PROJECT_DIR$/src/main/java/ex69/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex69/SimpleDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/SimpleDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657737481000</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add method for searching word in map">
+      <created>1657738254294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657738254294</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +170,7 @@
     <MESSAGE value="add method add() to add elements into map" />
     <MESSAGE value="corrected add method" />
     <MESSAGE value="add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
+    <MESSAGE value="add method for searching word in map" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method for searching word in map" />
   </component>
 </project>
