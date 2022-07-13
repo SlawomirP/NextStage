@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="add method add() to add elements into map">
+    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="corrected add method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex69/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex69/SimpleDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/SimpleDictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +22,23 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Bt4wRVJ1Qih9pMDE8P1wHNOLze" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -106,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657735581926</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="corrected add method">
+      <created>1657736194726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657736194726</updated>
+    </task>
+    <task id="LOCAL-00008" summary="corrected add method">
+      <created>1657736433133</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657736433133</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +154,7 @@
     <MESSAGE value="dodanie w mainie ksiazki" />
     <MESSAGE value="dodanie nowej klasy" />
     <MESSAGE value="add method add() to add elements into map" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method add() to add elements into map" />
+    <MESSAGE value="corrected add method" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected add method" />
   </component>
 </project>
