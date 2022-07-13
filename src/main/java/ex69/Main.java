@@ -1,16 +1,17 @@
 package ex69;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        SimpleDictionary book = new SimpleDictionary();
+        Scanner scanner = new Scanner(System.in);
+        SimpleDictionary simpleDictionary = new SimpleDictionary();
 
-        book.add("one", "yksi");
-        book.add("two", "kaksi");
+        TextUI textUI = new TextUI(simpleDictionary,scanner);
 
-        System.out.println(book.translate("one"));
-        System.out.println(book.translate("two"));
-        System.out.println(book.translate("three"));
+        textUI.start();
+
 
 
 
