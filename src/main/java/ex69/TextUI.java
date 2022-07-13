@@ -13,15 +13,23 @@ public class TextUI {
         this.scanner = scanner;
     }
 
-    // metoda pytająca i wyswietlajaca
+    // metoda pytająca i wyswietlajaca, jezeli bedzie polecenie end to konczy
+    // petle jezeli add to prosi o slowo i o tlumaczenie a nastepnie wpisuje
+    // to w tablice
 
-    public void start(Scanner scanner, SimpleDictionary simpleDictionary){
+    public void start() {
         while (true) {
             System.out.println("Command:");
             String command = scanner.nextLine();
             if (command.equals("end")) {
                 System.out.println("Bye bye!");
                 break;
+            }
+            if (command.equals("add")) {
+                System.out.println("Word");
+                String word = scanner.nextLine();
+                String translation = scanner.nextLine();
+                simpleDictionary.add(word, translation);
             }
             System.out.println("Unknown command");
         }
