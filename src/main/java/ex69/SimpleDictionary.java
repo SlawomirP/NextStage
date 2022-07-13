@@ -1,3 +1,5 @@
+package ex69;
+
 import java.util.HashMap;
 
 public class SimpleDictionary {
@@ -5,6 +7,7 @@ public class SimpleDictionary {
     private HashMap<String, String> translation;
 
     public SimpleDictionary() {
+
         this.translation = new HashMap<>();
     }
 
@@ -15,5 +18,4 @@ public class SimpleDictionary {
     public void add(String word, String translation) {
         this.translation.put(word, translation);
     }
-
 }

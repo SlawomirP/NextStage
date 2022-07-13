@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="dodanie hashmapy">
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleDictionary.java" afterDir="false" />
+    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="dodanie w mainie ksiazki">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/SimpleDictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="ex69.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex69.Main" />
+      <module name="NextStage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ex69.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657716099493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dodanie maina &#10;uzupelnienie simpleDi">
+      <created>1657716406471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657716406471</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dodanie w mainie ksiazki">
+      <created>1657716610568</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657716610568</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dodanie hashmapy" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie hashmapy" />
+    <MESSAGE value="dodanie maina &#10;uzupelnienie simpleDi" />
+    <MESSAGE value="dodanie w mainie ksiazki" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodanie w mainie ksiazki" />
   </component>
 </project>
