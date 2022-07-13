@@ -22,16 +22,22 @@ public class TextUI {
         while (true) {
             System.out.println("Command:");
             String command = scanner.nextLine();
-            if (command.equals("end")) {
+            if (command.equals("end")) {  // zakończenie
                 System.out.println("Bye bye!");
                 break;
             }
-            if (command.equals("add")) {
+            if (command.equals("add")) {  // dodanie
                 System.out.println("Word");
                 String word = scanner.nextLine();
                 System.out.println("Translation");
                 String translation = scanner.nextLine();
                 simpleDictionary.add(word, translation);
+                continue;
+            }
+            if (command.equals("search")) { // wyszukiwanie
+                System.out.println("To be translated:");
+                String searchingWord = scanner.nextLine();
+                System.out.println(simpleDictionary.translate(searchingWord));
                 continue;
             }
             if ((!command.equals("end")) || (!command.equals("add"))) {

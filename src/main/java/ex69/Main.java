@@ -12,7 +12,7 @@ public class Main {
 
         textUI.start();
 
-        System.out.println(simpleDictionary.translate("kot"));
+
 
 
 
