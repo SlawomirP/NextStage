@@ -1,6 +1,5 @@
 package ex612;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -26,7 +25,7 @@ public class UserInterface {
                 this.jokeManager.addJoke(scanner.nextLine());
             }
             if(decision.equals("2")){
-                this.jokeManager.drawJokes();
+                System.out.println(this.jokeManager.drawJoke());
             }
             if(decision.equals("3")){
                 this.jokeManager.printJokes();
@@ -41,19 +40,4 @@ public class UserInterface {
                 + "3 - list jokes" + "\n"
                 + "X - stop");
     }
-//    public boolean doesItContain (){
-//        if(scanner.nextLine().equals("X") || scanner.nextLine().equals("1")
-//        || scanner.nextLine().equals("2") || scanner.nextLine().equals("3")){
-//            return true;
-//        }
-//        return false;
-//    }
-//    public void tenses(String dec){
-//        switch (dec) {
-//            case "1":
-//                System.out.println("Write the joke to be added:");
-//            case "3":
-//                System.out.println("Printing the jokes.");
-//        }
-//    }
 }

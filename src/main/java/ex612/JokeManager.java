@@ -1,12 +1,11 @@
 package ex612;
-
 import java.util.ArrayList;
 import java.util.Random;
 
 public class JokeManager {
 
     private ArrayList<String> manager;
-    Random random = new Random();
+
 
     public JokeManager() {
         this.manager = new ArrayList<>();
@@ -16,10 +15,11 @@ public class JokeManager {
         this.manager.add(joke);
     }
 
-    public String drawJokes() {
+    public String drawJoke() {
         if (this.manager.isEmpty()) {
             return "Jokes are in short supply.";
         }
+        Random random = new Random();
         return this.manager.get(random.nextInt(this.manager.size()));
     }
 
@@ -31,3 +31,4 @@ public class JokeManager {
         }
     }
 }
+
