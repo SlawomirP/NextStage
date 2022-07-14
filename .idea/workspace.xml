@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="add method for searching word in map">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex69/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex69/SimpleDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/SimpleDictionary.java" afterDir="false" />
+    <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="add contains method to simpleDictionary&#10;new in loop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex610/TodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex69/TextUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657738254294</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add contains method to simpleDictionary&#10;new in loop">
+      <created>1657738851357</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657738851357</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +178,7 @@
     <MESSAGE value="corrected add method" />
     <MESSAGE value="add comments" />
     <MESSAGE value="add method for searching word in map" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method for searching word in map" />
+    <MESSAGE value="add contains method to simpleDictionary&#10;new in loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="add contains method to simpleDictionary&#10;new in loop" />
   </component>
 </project>
