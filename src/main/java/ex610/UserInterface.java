@@ -29,7 +29,7 @@ public class UserInterface {
                 }
             if (command.equals("remove")) { // warunek do usuwania z listy
                 System.out.println("Which one is removed?");
-                this.todoList.remove(Integer.valueOf(scanner.nextLine()));
+                this.todoList.remove(Integer.parseInt(scanner.nextLine()));
             }
         }
     }
