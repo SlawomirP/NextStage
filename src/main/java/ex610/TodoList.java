@@ -19,7 +19,7 @@ public class TodoList {
         }
     }
     public void remove(int number){ // usuwa z listy task o indexie number
-            this.list.remove(this.list.get(number));
+            this.list.remove(this.list.get(number - 1));
         }
     }
 
