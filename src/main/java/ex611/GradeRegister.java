@@ -6,13 +6,17 @@ import java.util.ArrayList;
 public class GradeRegister {
 
     private ArrayList<Integer> grades;
+    private ArrayList<Integer> examPoints;
 
     public GradeRegister() {
         this.grades = new ArrayList<>();
+        this.examPoints = new ArrayList<>();
     }
 
     public void addGradeBasedOnPoints(int points) { // wpisujemy pkt a metoda na podst
-        // tego korzysta z metody zamiany pkt na oceny i wpisuje do listy
+        // tego korzysta z metody zamiany pkt na oceny i wpisuje do listy// dodatkowo
+        // dodaje te pkt do osobnej listy z pkt z examow
+        this.examPoints.add(points);
         this.grades.add(pointsToGrade(points));
     }
 
@@ -51,7 +55,7 @@ public class GradeRegister {
         return (double) sumOfGrades() / this.grades.size();
     }
 
-    // robie metode pomocnicza ktora policzy wszystkie oceny
+    // robie metode pomocnicza ktora zsumuje wszystkie oceny
     private int sumOfGrades() {
         if (this.grades.isEmpty()) {
             return -1;
@@ -62,4 +66,24 @@ public class GradeRegister {
         }
         return gradesSum;
     }
+
+    //zwraca srednia pkt z examow
+    public double averageOfPoints() {
+        if (this.examPoints.isEmpty()) {
+            return -1;
+        }
+        return (double) sumOfPoints() / this.examPoints.size();
+    }
+
+    // moja dodatkowa metoda sumujaca wszystkie pkt z examow
+    private int sumOfPoints() {
+        int pointsSum = 0;
+        if (!this.examPoints.isEmpty()) {
+            for (Integer points : this.examPoints) {
+                pointsSum += points;
+            }
+        }
+        return pointsSum;
+    }
+
 }

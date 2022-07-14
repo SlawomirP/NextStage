@@ -7,7 +7,7 @@
     <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="--">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex611/GradeRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex611/GradeRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex611/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex611/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex611/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex611/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +55,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex610.Main" />
       <module name="NextStage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ex610.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex611.Program" />
+      <module name="NextStage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex611.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ex69.Main" />
       </list>
@@ -218,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657800391885</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="--">
+      <created>1657801475602</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657801475602</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
