@@ -11,11 +11,13 @@ public class GradeRegister {
         this.grades = new ArrayList<>();
     }
 
-    public void addGradeBasedOnPoints(int points) {
+    public void addGradeBasedOnPoints(int points) { // wpisujemy pkt a metoda na podst
+        // tego korzysta z metody zamiany pkt na oceny i wpisuje do listy
         this.grades.add(pointsToGrade(points));
     }
 
-    public int numberOfGrades(int grade) {
+    public int numberOfGrades(int grade) { // sprawdza ile ocen okreslonego rodzaju
+        // znajduje sie na liscie
         int count = 0;
         for (int received : this.grades) {
             if (received == grade) {
@@ -26,8 +28,7 @@ public class GradeRegister {
         return count;
     }
 
-    public static int pointsToGrade(int points) {
-
+    public static int pointsToGrade(int points) { // zwraca ocene zaleznie od pkt
         int grade = 0;
         if (points < 50) {
             grade = 0;
@@ -42,7 +43,23 @@ public class GradeRegister {
         } else {
             grade = 5;
         }
-
         return grade;
+    }
+
+    // metoda zwracająca srednia
+    public double averageOfGrades() {
+        return (double) sumOfGrades() / this.grades.size();
+    }
+
+    // robie metode pomocnicza ktora policzy wszystkie oceny
+    private int sumOfGrades() {
+        if (this.grades.isEmpty()) {
+            return -1;
+        }
+        int gradesSum = 0;
+        for (Integer grade : this.grades) {
+            gradesSum += grade;
+        }
+        return gradesSum;
     }
 }
