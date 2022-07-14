@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class TextUI {
     // pola uzywane przez klase
     private Scanner scanner;
-    private SimpleDictionary simpleDictionary;
+    private SimpleDictionary dictionary;
 
     // konstruktor
     public TextUI(SimpleDictionary simpleDictionary, Scanner scanner) {
-        this.simpleDictionary = simpleDictionary;
+        this.dictionary = simpleDictionary;
         this.scanner = scanner;
     }
 
@@ -18,7 +18,7 @@ public class TextUI {
     // to w tablice
 
     public void start() {
-        mainloop:
+
         while (true) {
             System.out.println("Command:");
             String command = scanner.nextLine();
@@ -31,16 +31,16 @@ public class TextUI {
                 String word = scanner.nextLine();
                 System.out.println("Translation");
                 String translation = scanner.nextLine();
-                simpleDictionary.add(word, translation);
+                dictionary.add(word, translation);
                 continue;
             }
             if (command.equals("search")) { // wyszukiwanie
                 System.out.println("To be translated:");
                 String searchingWord = scanner.nextLine();
-                if (!simpleDictionary.contains(searchingWord)) {
+                if (!dictionary.contains(searchingWord)) {
                     System.out.println("Word " + searchingWord + " was not found");
                 }
-                System.out.println(simpleDictionary.translate(searchingWord));
+                System.out.println(dictionary.translate(searchingWord));
                 continue;
             }
             if ((!command.equals("end")) || (!command.equals("add"))) {
