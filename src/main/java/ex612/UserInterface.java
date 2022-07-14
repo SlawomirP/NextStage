@@ -7,7 +7,7 @@ public class UserInterface {
 
     private JokeManager jokeManager;
     private Scanner scanner;
-    
+
 
     public UserInterface(JokeManager jokeManager, Scanner scanner) {
         this.jokeManager = jokeManager;
@@ -17,17 +17,18 @@ public class UserInterface {
     public void start() {
         while (true) {
             communicate();
-            if (doesItContain("X")) {
+            String decision = scanner.nextLine();
+            if (decision.equals("X")) {
                 break;
             }
-            if(doesItContain("1")){
-                tenses("1");
+            if(decision.equals("1")){
+                System.out.println("Write the joke to be added:");
                 this.jokeManager.addJoke(scanner.nextLine());
             }
-            if(doesItContain("2")){
+            if(decision.equals("2")){
                 this.jokeManager.drawJokes();
             }
-            if(doesItContain("3")){
+            if(decision.equals("3")){
                 this.jokeManager.printJokes();
             }
         }
@@ -40,18 +41,19 @@ public class UserInterface {
                 + "3 - list jokes" + "\n"
                 + "X - stop");
     }
-    public boolean doesItContain (String word){
-        if(scanner.nextLine().equals(word)){
-            return true;
-        }
-        return false;
-    }
-    public void tenses(String word){
-        switch (word) {
-            case "1":
-                System.out.println("Write the joke to be added:");
-            case "3":
-                System.out.println("Printing the jokes.");
-        }
-    }
+//    public boolean doesItContain (){
+//        if(scanner.nextLine().equals("X") || scanner.nextLine().equals("1")
+//        || scanner.nextLine().equals("2") || scanner.nextLine().equals("3")){
+//            return true;
+//        }
+//        return false;
+//    }
+//    public void tenses(String dec){
+//        switch (dec) {
+//            case "1":
+//                System.out.println("Write the joke to be added:");
+//            case "3":
+//                System.out.println("Printing the jokes.");
+//        }
+//    }
 }

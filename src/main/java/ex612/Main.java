@@ -1,18 +1,16 @@
 package ex612;
 
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        JokeManager test = new JokeManager();
-        test.addJoke("What is red and smells of blue paint? - Red paint.");
-        test.addJoke("What is blue and smells of red paint? - Blue paint.");
 
-        System.out.println("Drawing jokes:");
-        for (int i = 0; i < 5; i++) {
-            System.out.println(test.drawJokes());
-        }
+        JokeManager jokeManager = new JokeManager();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("");
-        System.out.println("Printing jokes:");
-        test.printJokes();
+        UserInterface test = new UserInterface(jokeManager,scanner);
+
+        test.start();
     }
 }
