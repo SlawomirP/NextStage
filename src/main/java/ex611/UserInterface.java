@@ -69,5 +69,4 @@ public class UserInterface {
     public void printAverageOfGrades() {
         System.out.println(register.averageOfGrades());
     }
-
 }
