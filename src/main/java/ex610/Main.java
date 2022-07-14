@@ -10,5 +10,9 @@ public class Main {
         list.add("take it easy");
 
         list.print();
+        list.remove(2);
+
+        System.out.println();
+        list.print();
     }
 }
