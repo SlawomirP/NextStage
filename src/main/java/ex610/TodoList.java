@@ -15,11 +15,11 @@ public class TodoList {
     }
     public void print(){ // wyświetla pozycje i zadanie
         for(String task : list){
-            System.out.println(task.indexOf(task) + ": " + task.);
+            System.out.println(list.indexOf(task) + ": " + task);
         }
     }
-    public void remove(int number){
-            this.list.remove(number);
+    public void remove(int number){ // usuwa z listy task o indexie number
+            this.list.remove(this.list.get(number));
         }
     }
 }
