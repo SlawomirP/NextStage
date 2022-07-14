@@ -53,7 +53,6 @@ public class UserInterface {
 
             grade = grade - 1;
         }
-
     }
 
     public static void printsStars(int stars) {
@@ -63,11 +62,11 @@ public class UserInterface {
         }
     }
 
-    public void printAverageOfPoints(){
+    public void printAverageOfPoints() {
         System.out.println(register.averageOfPoints());
     }
 
-    public void printAverageOfGrades(){
+    public void printAverageOfGrades() {
         System.out.println(register.averageOfGrades());
     }
 

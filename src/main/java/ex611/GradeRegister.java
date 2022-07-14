@@ -52,7 +52,7 @@ public class GradeRegister {
 
     // metoda zwracająca srednia
     public double averageOfGrades() {
-        if(this.grades.isEmpty()){
+        if (this.grades.isEmpty()) {
             return -1;
         }
         return (double) sumOfGrades() / this.grades.size();

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="--">
       <change beforePath="$PROJECT_DIR$/src/main/java/ex611/GradeRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex611/GradeRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex611/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex611/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657806798637</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="--">
+      <created>1657807083952</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657807083952</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
