@@ -1,12 +1,12 @@
 package ex702;
 
-public class Cointainer {
+public class Container {
 
     private String name;
     private int amountOfWater;
     private int amountLimit;
 
-    public Cointainer(String name) {
+    public Container(String name) {
         this.name = name;
         this.amountOfWater = 0;
         this.amountLimit = 100;

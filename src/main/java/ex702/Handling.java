@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Handling {
 
-    private Cointainer cointainer;
+    private Container cointainer;
     private Scanner scanner;
 
-    public Handling(Cointainer cointainer, Scanner scanner) {
+    public Handling(Container cointainer, Scanner scanner) {
         this.cointainer = cointainer;
         this.scanner = scanner;
     }

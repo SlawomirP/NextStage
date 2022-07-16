@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="--">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex701/LiquidContainers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex701/LiquidContainers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex7002Corrected/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex7002Corrected/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex7002Corrected/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex703/MainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex702/Cointainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex702/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ex702/Handling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex702/Handling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +72,13 @@
       <recent name="outOf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ex701.LiquidContainers">
-    <configuration name="LiquidContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex702.LiquidContainers" />
+  <component name="RunManager" selected="Application.MainProgram">
+    <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex703.MainProgram" />
       <module name="NextStage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex702.*" />
+          <option name="PATTERN" value="ex703.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex612.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex612.Main" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex7002Corrected.MainTest" />
       <module name="NextStage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex612.*" />
+          <option name="PATTERN" value="ex7002Corrected.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex702.LiquidContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex702.LiquidContainers" />
+      <module name="NextStage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex702.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in NextStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NextStage" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,28 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NextStage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="outOf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="outOf" />
-      <option name="MAIN_CLASS_NAME" value="outOf.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainProgram" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.ex701.LiquidContainers" />
         <item itemvalue="Application.ex702.LiquidContainers" />
         <item itemvalue="JUnit.All in NextStage" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="Application.ex612.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657976156281</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="--">
+      <created>1657977026843</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1657977026843</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
