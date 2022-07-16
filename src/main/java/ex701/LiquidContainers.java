@@ -32,6 +32,26 @@ public class LiquidContainers {
                 }
                 System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
             }
+            if (input.contains("move")) {
+                String[] parts = input.split(" ");
+                int amount = Integer.valueOf(parts[1]);
+                if (amount > 0 && amount < first && first != 0) {
+                    if (second + amount > 100) {
+                        second = 100;
+                        first -= amount;
+                    }
+                    if (second + amount >= 0 && second + amount <= 100) {
+                        second += amount;
+                        first -= amount;
+                    }
+                }
+                if (amount > 0 && amount > first && first != 0) {
+                    amount -= first;
+                    second += amount;
+                    first = 0;
+                }
+                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
+            }
         }
     }
 }
