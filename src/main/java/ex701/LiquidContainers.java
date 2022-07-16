@@ -13,15 +13,18 @@ public class LiquidContainers {
         int second = 0;
 
         while (true) {
+            System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
             System.out.print("> ");
 
             String input = scan.nextLine();
             if (input.equals("quit")) {
                 break;
             }
-            if (input.contains("add")) {
-                String[] parts = input.split(" ");
-                int amount = Integer.valueOf(parts[1]);
+
+            String[] parts = input.split(" ");
+            String command = parts[0];
+            int amount = Integer.parseInt(parts[1]);
+            if (command.equals("add")) {
                 if (amount > 0) {
                     if (first + amount > 100) {
                         first = 100;
@@ -30,27 +33,43 @@ public class LiquidContainers {
                         first += amount;
                     }
                 }
-                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
+//                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
             }
-            if (input.contains("move")) {
-                String[] parts = input.split(" ");
-                int amount = Integer.valueOf(parts[1]);
-                if (amount > 0 && amount < first && first != 0) {
-                    if (second + amount > 100) {
-                        second = 100;
-                        first -= amount;
+            if (command.equals("move")) {
+                if (amount > 0){
+                    if (amount >=first) {
+                        amount = first;
+                        if (second + amount > 100) {
+                            second = 100;
+                            first = 0;
+                        }
+                        if (second + amount >= 0 && second + amount <= 100 ) {
+                            second += amount;
+                            first = 0;
+                        }
                     }
-                    if (second + amount >= 0 && second + amount <= 100) {
-                        second += amount;
-                        first -= amount;
+                    if (amount < first ) {
+                        if (second + amount > 100) {
+                            second = 100;
+                            first -= amount;
+                        }
+                        if (second + amount >= 0 && second + amount <= 100 ) {
+                            second += amount;
+                            first -= amount;
+                        }
                     }
                 }
-                if (amount > 0 && amount > first && first != 0) {
-                    amount -= first;
-                    second += amount;
-                    first = 0;
+
+//                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
+            }
+            if (command.equals("remove")) {
+                if (amount > 0 && second >= amount) {
+                    second -= amount;
                 }
-                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
+                if (amount > 0 && second < amount) {
+                    second = 0;
+                }
+//                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
             }
         }
     }
