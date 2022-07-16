@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="--">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex701/Cointainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex701/Handling.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ex701/LiquidContainers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/outOf/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/outOf/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,7 @@
       <recent name="outOf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ex702.LiquidContainers">
+  <component name="RunManager" selected="Application.ex701.LiquidContainers">
     <configuration name="LiquidContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex702.LiquidContainers" />
       <module name="NextStage" />
@@ -87,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex611.Program" />
+    <configuration name="ex612.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex612.Main" />
       <module name="NextStage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex611.*" />
+          <option name="PATTERN" value="ex612.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex612.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex612.Main" />
+    <configuration name="ex701.LiquidContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex701.LiquidContainers" />
       <module name="NextStage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex612.*" />
+          <option name="PATTERN" value="ex701.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex701.LiquidContainers" />
         <item itemvalue="Application.ex702.LiquidContainers" />
         <item itemvalue="JUnit.All in NextStage" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.ex612.Main" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657819419343</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="--">
+      <created>1657968635214</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1657968635214</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
