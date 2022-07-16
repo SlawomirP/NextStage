@@ -46,7 +46,14 @@ public class Searching {
     }
 
     public static int linearSearch(ArrayList<Book> books, int searchedId) {
-        return -1;
+        int foundedId = -1;
+        for (int i = 0; i < books.size(); i++){
+            if (i == searchedId){
+                foundedId = i;
+            }
+            return foundedId;
+        }
+        return foundedId;
     }
 
     public static int binarySearch(ArrayList<Book> books, long searchedId) {
