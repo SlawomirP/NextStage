@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="--">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex704/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ex703/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex703/MainProgram.java" afterDir="false" />
     </list>
@@ -67,7 +68,20 @@
       <recent name="outOf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainProgram">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex704.Main" />
+      <module name="NextStage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex704.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex703.MainProgram" />
       <module name="NextStage" />
@@ -120,21 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in NextStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NextStage" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainProgram" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.ex701.LiquidContainers" />
         <item itemvalue="Application.ex702.LiquidContainers" />
-        <item itemvalue="JUnit.All in NextStage" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657986035057</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="--">
+      <created>1657988466452</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1657988466452</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
