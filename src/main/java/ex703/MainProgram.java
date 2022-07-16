@@ -4,9 +4,10 @@ public class MainProgram {
 
     public static void main(String[] args) {
         // write your test code here
-        int[] numbers = {6, 5,4,97,3,1, 8, 7, 11};
-        System.out.println("Index of the smallest number: " + MainProgram.indexOfSmallest(numbers));
-
+        int[] numbers = {-1, 6, 9, 8, 12};
+        System.out.println(MainProgram.indexOfSmallestFrom(numbers, 0));
+        System.out.println(MainProgram.indexOfSmallestFrom(numbers, 1));
+        System.out.println(MainProgram.indexOfSmallestFrom(numbers, 2));
     }
 
     public static int smallest(int[] array) {
@@ -29,5 +30,15 @@ public class MainProgram {
         return smallestIndex;
     }
 
-    public static int indexOfSmallestFrom(int[] array, int position){}
+    public static int indexOfSmallestFrom(int[] array, int position){
+        int smallest = array[position];
+        int smallestIndex = position;
+        for(int i = position; i < array.length; i++){
+            if(array[i] < smallest){
+                smallestIndex = i;
+            }
+        }
+        return smallestIndex;
+    }
+
 }
