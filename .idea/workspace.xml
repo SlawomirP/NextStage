@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="--">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex701/Cointainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex701/Handling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex701/LiquidContainers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/outOf/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/outOf/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex612/JokeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex612/JokeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex612/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex612/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -50,18 +56,30 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Mój dysk/JavaMooc2/NextStage&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex612.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex610.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="outOf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ex702.LiquidContainers">
+    <configuration name="LiquidContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex702.LiquidContainers" />
       <module name="NextStage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex610.*" />
+          <option name="PATTERN" value="ex702.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,19 +113,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex69.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex69.Main" />
+    <configuration name="All in NextStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NextStage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NextStage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="outOf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="outOf" />
+      <option name="MAIN_CLASS_NAME" value="outOf.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex702.LiquidContainers" />
+        <item itemvalue="JUnit.All in NextStage" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.ex612.Main" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ex69.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657818459809</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="--">
+      <created>1657819419343</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1657819419343</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
