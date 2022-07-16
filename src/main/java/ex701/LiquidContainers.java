@@ -36,24 +36,24 @@ public class LiquidContainers {
 //                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
             }
             if (command.equals("move")) {
-                if (amount > 0){
-                    if (amount >=first) {
+                if (amount > 0) {
+                    if (amount >= first) {
                         amount = first;
                         if (second + amount > 100) {
                             second = 100;
                             first = 0;
                         }
-                        if (second + amount >= 0 && second + amount <= 100 ) {
+                        if (second + amount >= 0 && second + amount <= 100) {
                             second += amount;
                             first = 0;
                         }
                     }
-                    if (amount < first ) {
+                    if (amount < first) {
                         if (second + amount > 100) {
                             second = 100;
                             first -= amount;
                         }
-                        if (second + amount >= 0 && second + amount <= 100 ) {
+                        if (second + amount >= 0 && second + amount <= 100) {
                             second += amount;
                             first -= amount;
                         }
@@ -63,13 +63,14 @@ public class LiquidContainers {
 //                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
             }
             if (command.equals("remove")) {
-                if (amount > 0 && second >= amount) {
-                    second -= amount;
+                if (amount > 0) {
+                    if (amount >= second) {
+                        second = 0;
+                    }
+                    if (amount < second) {
+                        second -= amount;
+                    }
                 }
-                if (amount > 0 && second < amount) {
-                    second = 0;
-                }
-//                System.out.println("First: " + first + "/100" + "\n" + "Second: " + second + "/100");
             }
         }
     }
