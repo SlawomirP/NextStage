@@ -2,6 +2,7 @@ package ex705;
 
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Searching {
@@ -46,17 +47,29 @@ public class Searching {
     }
 
     public static int linearSearch(ArrayList<Book> books, int searchedId) {
-        int foundedId = -1;
-        for (int i = 0; i < books.size(); i++){
-            if (i == searchedId){
-                foundedId = i;
+        for (Book book : books) {
+            if (book.getId() == searchedId) {
+                return books.indexOf(book);
             }
-            return foundedId;
         }
-        return foundedId;
+        return -1;
     }
 
     public static int binarySearch(ArrayList<Book> books, long searchedId) {
+        int left = 0;
+        int right = books.size() - 1;
+
+        while (left <= right) {
+            int middle = (left + right) / 2;
+            if (searchedId < books.get(middle).getId()) {
+                right = middle - 1;
+            }
+            if (searchedId > books.get(middle).getId()) {
+                left = middle + 1;
+            } else {
+                return middle;
+            }
+        }
         return -1;
     }
 }
