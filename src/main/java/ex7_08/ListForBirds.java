@@ -1,7 +1,7 @@
 package ex7_08;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 public class ListForBirds {
 
@@ -13,12 +13,20 @@ public class ListForBirds {
     }
 
     public void add(Bird bird) {
-        birdList.add(bird);
+        this.birdList.add(bird);
     }
 
-    public void all(){
-        for(Bird bird : birdList){
+    public void all() {
+        for (Bird bird : birdList) {
             System.out.println(bird);
+        }
+    }
+
+    public void one(String oneName) {
+        for (Bird bird : birdList) {
+            if (bird.getName().equals(oneName)) {
+                System.out.println(bird);
+            }
         }
     }
 
