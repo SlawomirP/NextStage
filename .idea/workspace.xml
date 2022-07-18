@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5c6d85-ad54-4fd4-834c-4f051970f497" name="Changes" comment="--">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Temptest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex7_06/ListCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex7_06/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex7_06/PointsChangerToGrades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex7_06/StarPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ex7_06/UserPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EX7_07/PanelForUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EX7_07/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EX7_07/RecipeListCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EX7_07/RecipeSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EX7_07/StringListCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EX7_07/recipes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ex7_08/Bird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ex705/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ex705/Searching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +69,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Mój dysk\JavaMooc2\NextStage\src\main\java\EX7_07" />
+      <recent name="G:\Mój dysk\JavaMooc2\NextStage\src" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="outOf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ex7_06.Main">
+  <component name="RunManager" selected="Application.RecipeSearch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex704.Main" />
       <module name="NextStage" />
@@ -100,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex7002Corrected.MainTest" />
+    <configuration name="RecipeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EX7_07.RecipeSearch" />
       <module name="NextStage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex7002Corrected.*" />
+          <option name="PATTERN" value="EX7_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecipeSearch" />
         <item itemvalue="Application.ex7_06.Main" />
         <item itemvalue="Application.Temptest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainProgram" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658048132220</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="--">
+      <created>1658076579948</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1658076579948</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
